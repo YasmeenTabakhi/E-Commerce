@@ -1,0 +1,12 @@
+.cardCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardCategory p {
+    color : #4b5563
+}
+.cardCategory img { 
+            height: 260px;width:100%  
+}

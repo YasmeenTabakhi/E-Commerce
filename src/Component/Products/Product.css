@@ -1,0 +1,145 @@
+/* SortProducts style*/
+.sorting {
+  gap: 10px;
+}
+
+#sort-select {
+  border-radius: 6px;
+}
+
+select {
+  outline: none;
+}
+
+option:checked,
+option:hover {
+  color: #374151;
+}
+
+/*Product card style*/
+.btn {
+  background-color: var(--premierColor) !important;
+  transition: var(--transitionAll) !important;
+  color: white !important;
+  border-radius: 6px;
+  width: 124px;
+  height: 33px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 10px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: #22909a !important;
+  color: #ffff;
+}
+
+/*.btn:active {
+ background-color: #374151 !important;
+ color: #ffff;
+}*/
+
+.card-img-top {
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #22909a;
+  font-weight: 700;
+}
+
+/* Pagination style*/
+
+.page-item .page-link {
+  color: #374151;
+  border: none;
+}
+
+.page-item .page-link:hover {
+  border-bottom: solid 5px #22909a;
+}
+
+.page-item.active .page-link {
+  color: #fff;
+
+  background-color: #22909a;
+}
+
+.page-item.disabled .page-link {
+  color: #868e96;
+
+  pointer-events: none;
+
+  cursor: auto;
+
+  background-color: #868e96;
+
+  border-color: #718393;
+}
+
+/*Product view style*/
+
+#price {
+  color: #22909a;
+}
+
+.note {
+  color: #718393;
+  font-size: small;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+.btnView {
+  background-color: var(--premierColor) !important;
+  transition: var(--transitionAll) !important;
+  color: white !important;
+  border-radius: 6px !important;
+  height: 50px;
+  font-size: 18px;
+}
+
+.btnView:hover {
+  background-color: #22909a !important;
+  color: #ffff;
+}
+
+.btnView:active {
+  background-color: #22909a !important;
+  color: #ffff;
+}
+
+.btnView a {
+  text-decoration: none;
+  color: #ffff !important;
+}
+
+.nav-link:active {
+  color: #22909a !important;
+}
+
+.nav-link {
+  color: #374151 !important;
+}
+
+.box-Shaddow {
+  box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 12px 24px -12px rgba(0, 0, 0, 0.5);
+}
+
+.title_Products_line {
+  position: relative;
+}
+
+.title_Products_line::before {
+  width: 200px;
+  height: 3px;
+  background-color: #22909a;
+  border-radius: 16px;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}

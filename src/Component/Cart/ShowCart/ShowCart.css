@@ -1,0 +1,90 @@
+.header_span li {
+    color: var(--premierColor);
+}
+
+.price span:nth-child(2) {
+    color: var(--premierColor);
+}
+
+.fa-regular {
+    color: #2DC071;
+}
+
+.Line-vertical {
+    width: 1px;
+    height: 100%;
+    background-color: #dcdee0;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.bg-vector {
+    background-color: #F6F6F6;
+}
+
+.Applay {
+    position: relative;
+}
+
+.Applay::after {
+    content: "APPLY";
+    font-weight: 700;
+    color: var(--premierColor);
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 16px;
+}
+
+.price_Details ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    font-size: 14px;
+}
+
+.free {
+    color: var(--premierColor);
+}
+
+.Line_horizontal {
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #dcdee0;
+}
+
+.Place_Order li {
+    list-style-type: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button_Place {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--premierColor);
+    transition: var(--transitionAll);
+}
+
+.button_Place:hover {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--premierColorHover);
+    transition: var(--transitionAll);
+}
+
+.back-page {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+    .Cart_item {
+        gap: 10px !important;
+    }
+}

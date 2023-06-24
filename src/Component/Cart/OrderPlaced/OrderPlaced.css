@@ -1,0 +1,16 @@
+.confirmed_Succee {
+    color: #41CCCF;
+}
+
+.button_order {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--premierColor);
+    transition: var(--transitionAll);
+}
+
+@media only screen and (max-width: 400px) {
+    .Delivery_Order img {
+        width: 200px;
+    }
+}

@@ -1,0 +1,9 @@
+.Center_Link a {
+    color: #4B5563;
+}
+
+@media only screen and (max-width: 400px) {
+    .Center_Link {
+        flex-direction: column;
+    }
+}

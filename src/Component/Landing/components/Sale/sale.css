@@ -1,0 +1,60 @@
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+.sale .text {
+    padding: 50px;
+    width: 100%;
+}
+.sale img {
+    width: 100%;
+}
+.sale h1 {
+    font-weight: 800;
+}
+.sale .p {
+    color : #25b0b5;
+}
+.button {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+height: 56px;
+}
+.btnn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.btn-a {
+    background-color: #22909a;
+    color: #fff;
+}
+.btn-a:hover {
+    background-color: #11666e;
+    transition: all 0.3s;
+}
+.btn-b {
+    border: 1px solid #22909a;
+    background-color: #fff;
+    color: #22909a;
+}
+.btn-b:hover {
+    color: white;
+    background-color: #11666e;
+    transition: all 0.3s;
+}
+
+@media (max-width: 1111px) {
+    .sale{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+}

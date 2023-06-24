@@ -1,0 +1,40 @@
+.Header {
+    border-bottom: 1px solid #d7dadc;
+}
+
+.drop-list {
+    position: relative;
+}
+
+.drop-icon,
+.nav-link {
+    cursor: pointer;
+}
+
+.drop_menu {
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -130px;
+    width: 150px;
+    display: none;
+}
+
+.drop_menu a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+}
+
+.drop_menu a:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.activeOpen {
+    display: flex;
+}

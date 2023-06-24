@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --premierColor: #25B0B5;
+    --premierColorHover: #2ca5aa;
+    --transitionAll: ease-in-out .2s;
+}

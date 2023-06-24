@@ -1,0 +1,44 @@
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    padding: 72px;
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-color: #effcfc;
+    border: 1px solid #7de2e3;
+    border-radius: 6px;
+}
+
+.quote {
+    position: absolute;
+    height: 135px;
+    width: 160px;
+    right: 100px;
+    bottom: 30px;
+    border-radius: 0px;
+
+}
+
+.reviewImg {
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 1111px) {
+    .review {
+        flex-wrap: wrap;
+    }
+
+    .reviewImg {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100px;
+        height: 100px;
+        right: 30px;
+    }
+}

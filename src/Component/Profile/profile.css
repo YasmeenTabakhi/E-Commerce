@@ -1,0 +1,55 @@
+.flex-wrapp {
+  height: 75vh;
+}
+.con-color {
+  background-color: #22909a;
+  color: white;
+}
+
+.img-abs {
+  position: absolute;
+  right: 0;
+  bottom: -30%;
+}
+
+.con-rel {
+  height: 60%;
+  position: relative;
+}
+.con-rell {
+  padding: 20px;
+}
+.con-con-con {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .img-abs {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .flex-wrapp {
+    flex-direction: column;
+    height: 85vh;
+  }
+  .con-con-con {
+    margin-top: 0;
+  }
+  .img-abs {
+    display: none;
+  }
+  .container {
+    padding: auto;
+  }
+  .con-rell {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 5px;
+  }
+}

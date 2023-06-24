@@ -1,0 +1,274 @@
+.container-flexsignup {
+    display: flex;
+}
+
+.img-signup {
+    width: 50vw;
+    height: 100vh;
+}
+
+.container-signup img {
+    width: 50%;
+}
+
+.container-signup {
+    display: flex;
+    align-items: center;
+}
+
+.container-signup form {
+    padding-left: 100px;
+}
+
+.info-signup {
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.info-signup-start {
+    color: rgb(132, 132, 132);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.form-SignUp {
+    width: 50vw;
+    height: 100vh;
+    padding-top: 20vh;
+    padding-left: 15vw;
+
+}
+
+
+.password-signUp {
+    width: 20vw;
+    background-color: rgb(246, 246, 246);
+}
+
+.password-again {
+    width: 20vw;
+    background-color: rgb(246, 246, 246);
+}
+
+.email-signUp {
+    width: 20vw;
+    background-color: rgb(246, 246, 246);
+}
+
+.form-check-input {
+    background-color: rgb(37, 176, 181);
+}
+
+.Accept-terms {
+    font-size: 0.8rem;
+
+}
+
+.Accept-terms {
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.btn-signUp {
+    width: 20vw;
+    background-color: rgb(37, 176, 181);
+    margin-bottom: 20px;
+}
+
+.line-signup {
+    width: 20vw;
+    padding-top: 30px;
+    border-bottom: 1px solid #D2D2D2;
+
+    .line-signup {
+        width: 100%;
+        padding-top: 30px;
+        border-bottom: 1px solid #D2D2D2;
+    }
+
+    .haveaccount {
+        padding-top: 15px;
+        padding-bottom: 20px;
+        font-size: 0.9rem;
+        color: rgb(132, 132, 132);
+        text-align: center;
+        color: rgb(132, 132, 132);
+    }
+
+    .have-account-signUp {
+        color: rgb(37, 176, 181);
+    }
+
+    .green-span {
+        color: rgb(37, 176, 181);
+    }
+
+    @media only screen and (max-width: 768px) {
+        .container-flexsignup {
+            flex-direction: column;
+            height: 100vh;
+
+        }
+
+        .image-signup {
+            width: 100vw;
+            border: 1px solid black;
+            height: 20vh;
+        }
+
+        .info-signup-start {
+            font-size: 0.8rem;
+        }
+
+        .form-SignUp {
+            width: 100vw;
+            height: unset;
+            object-fit: cover;
+            padding-top: 20px;
+        }
+
+        .email-signUp {
+            width: 70vw;
+            height: unset;
+        }
+
+        @media (max-width: 1320px) {
+            .container-signup {
+                flex-direction: column;
+            }
+
+            .container-signup img {
+                display: none;
+            }
+
+            form {
+                top: 0;
+                padding: 50px 0;
+                padding-left: 0px !important;
+                width: 80%;
+                margin: auto;
+            }
+
+            .donthaveaccount {
+                font-size: 0.5rem;
+            }
+
+            .password-signUp {
+                width: 70vw;
+                height: unset;
+            }
+
+            .password-again {
+                width: 70vw;
+                height: unset;
+
+            }
+
+            .Accept-terms {
+                font-size: 0.8rem;
+                padding-right: 0;
+            }
+        }
+
+    }
+
+    .line-signup {
+        width: 70vw;
+    }
+
+    .btn-signUp {
+        margin-left: 80px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container-flexsignup {
+        flex-direction: column;
+        height: 100vh;
+
+    }
+
+    .image-signup {
+        width: 100vw;
+        border: 1px solid black;
+        height: 20vh;
+    }
+
+    .info-signup {
+        padding-left: 150px;
+    }
+
+    .info-signup-start {
+        font-size: 1.3rem;
+        padding-bottom: 50px;
+    }
+
+    .form-SignUp {
+        width: 100vw;
+        height: unset;
+        object-fit: cover;
+        padding-top: 20px;
+    }
+
+    .email-signUp {
+        width: 70vw;
+        height: 5vh;
+    }
+
+    .password-signUp {
+        width: 70vw;
+        height: 5vh;
+    }
+
+    .password-again {
+        width: 70vw;
+        height: 5vh;
+
+    }
+
+    .Accept-terms {
+        font-size: 0.9rem;
+
+    }
+
+    .line-signup {
+        width: 70vw;
+    }
+
+    .haveaccount {
+        font-size: 1rem;
+    }
+
+    .btn-signUp {
+        margin-left: 25vw;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .info-signup {
+        font-size: 0.9rem;
+    }
+
+    .info-signup-start {
+        font-size: 0.7rem;
+
+    }
+
+    .Accept-terms {
+        font-size: 0.5rem;
+
+    }
+
+    .haveaccount {
+        font-size: 0.5rem;
+
+    }
+
+    .btn-signUp {
+        width: 30vw;
+        margin-left: 20vw;
+    }
+
+}

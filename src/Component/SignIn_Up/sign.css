@@ -1,0 +1,225 @@
+ .container-flex {
+     display: flex;
+
+ }
+
+ .image-sigin {
+     width: 50vw;
+
+ }
+
+ .img {
+     width: 50vw;
+     height: 100vh;
+     margin-left: 50px;
+
+ }
+
+ .info {
+     font-size: 1.5rem;
+     font-family: 'Poppins', sans-serif;
+     font-weight: bold;
+     padding-bottom: 25px;
+
+ }
+
+ .form-SignIn {
+     width: 50vw;
+     height: 100vh;
+     padding-top: 20vh;
+     padding-left: 15vw;
+
+ }
+
+
+ .password {
+     width: 20vw;
+     background-color: rgb(246, 246, 246);
+ }
+
+ .email {
+     width: 20vw;
+     background-color: rgb(246, 246, 246);
+ }
+
+ .cheak {
+     display: flex;
+     padding-top: 30px;
+     padding-bottom: 20px;
+     font-size: 0.9rem;
+
+ }
+
+ .form-check-input {
+     background-color: rgb(37, 176, 181);
+     font-family: 'Poppins', sans-serif;
+     margin-right: 10px;
+
+
+ }
+
+ .remberme {
+     padding-right: 70px;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .btn-sign {
+     width: 20vw;
+     background-color: rgb(37, 176, 181);
+     margin-bottom: 20px;
+ }
+
+ .line {
+     width: 20vw;
+     padding-top: 15px;
+     border-bottom: 1px solid #D2D2D2;
+     ;
+ }
+
+ .donthaveaccount {
+     padding-top: 30px;
+     font-family: 'Poppins', sans-serif;
+     padding-left: 50px;
+     color: rgb(132, 132, 132);
+
+ }
+
+ .have-account {
+     color: rgb(37, 176, 181);
+ }
+
+ @media only screen and (max-width: 768px) {
+     .container-flex {
+         flex-direction: column;
+         height: 100vh;
+
+     }
+
+     .image-sigin {
+         width: 100vw;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         height: 20vh;
+     }
+
+     .img {
+         width: 100vw;
+         display: none;
+         height: 20vh;
+     }
+
+     .info {
+         font-size: 0.8rem;
+     }
+
+     .form-SignIn {
+         width: 100vw;
+         height: unset;
+         object-fit: cover;
+         padding-top: 20px;
+     }
+
+     .email {
+         width: 70vw;
+         height: unset;
+     }
+
+     .password {
+         width: 70vw;
+         height: unset;
+     }
+
+     .cheak {
+         font-size: 0.7rem;
+     }
+
+     .line {
+         width: 70vw;
+     }
+
+     .btn-sign {
+         margin-left: 80px;
+     }
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+     .container-flex {
+         flex-direction: column;
+         height: 100vh;
+
+     }
+
+     .image-sigin {
+         width: 100vw;
+
+         height: 20vh;
+     }
+
+     .img {
+         width: 100vw;
+         display: none;
+         height: auto;
+     }
+
+     .info {
+         padding-left: 150px;
+     }
+
+
+     .form-SignIn {
+         width: 100vw;
+         height: unset;
+         object-fit: cover;
+         padding-top: 20px;
+     }
+
+     .email {
+         width: 70vw;
+         height: 5vh;
+     }
+
+     .password {
+         width: 70vw;
+         height: 5vh;
+     }
+
+     .cheak {
+         font-size: 0.7rem;
+     }
+
+     .line {
+         width: 70vw;
+     }
+
+     .donthaveaccount {
+         font-size: 1rem;
+     }
+
+     .btn-sign {
+         margin-left: 25vw;
+     }
+ }
+
+ @media screen and (min-width: 768px) {}
+
+ @media (min-width: 280px) and (max-width: 320px) {
+     .info {
+         font-size: 0.9rem;
+     }
+
+     .cheak {
+         font-size: 0.5rem;
+     }
+
+     .donthaveaccount {
+         font-size: 0.5rem;
+
+     }
+
+     .btn-sign {
+         width: 30vw;
+         margin-left: 20vw;
+     }
+
+ }
